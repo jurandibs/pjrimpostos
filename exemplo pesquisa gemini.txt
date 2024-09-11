@@ -1,0 +1,58 @@
+baseado no seguinte html  ```html ```<div class="item-resultado">
+                    <h2>
+                        <a href="#" target="_blank">ICMS</a>
+                    </h2>
+                    <p class="descricao-meta">O Imposto sobre Circulação de Mercadorias e Serviços (ICMS) em Sergipe,
+                        assim
+                        como em outros estados
+                        brasileiros, incide sobre a circulação de mercadorias e a prestação de serviços. Em resumo, ele
+                        é
+                        cobrado em cada etapa da cadeia produtiva, desde a fabricação até a venda final ao consumidor.
+                    </p>
+                    <br>
+                    <a href="https://www.sefaz.se.gov.br/" target="_blank">Mais informações</a>
+                </div>  ``` agora gostaria de criar para mais dois impostos: pis e cofins.
+
+
+Mostrar rascunhos
+
+Criando HTML para PIS e COFINS com base no exemplo
+Entendendo a Estrutura:
+
+O HTML fornecido possui uma estrutura clara para cada item:
+
+Div container: Define um contêiner para cada imposto, com a classe item-resultado.
+Título: Um h2 com um a para o link.
+Descrição: Um parágrafo com a classe descricao-meta.
+Link para mais informações: Um a com o texto "Mais informações".
+Criando o HTML para PIS e COFINS:
+
+HTML
+<div class="item-resultado">
+    <h2>
+        <a href="#" target="_blank">PIS</a>
+    </h2>
+    <p class="descricao-meta">O Programa de Integração Social (PIS) é uma contribuição social destinada a financiar o pagamento de benefícios previdenciários e assistenciais, como o seguro-desemprego. A alíquota e a base de cálculo do PIS variam de acordo com a natureza da atividade econômica e o regime tributário da empresa.</p>
+    <br>
+    <a href="https://www.gov.br/receitafederal" target="_blank">Mais informações</a>
+</div>
+
+<div class="item-resultado">
+    <h2>
+        <a href="#" target="_blank">COFINS</a>
+    </h2>
+    <p class="descricao-meta">A Contribuição para o Financiamento da Seguridade Social (COFINS) é um tributo que financia a seguridade social brasileira. Assim como o PIS, a alíquota e a base de cálculo da COFINS variam de acordo com a natureza da atividade econômica e o regime tributário da empresa.</p>
+    <br>
+    <a href="https://www.gov.br/receitafederal" target="_blank">Mais informações</a>
+</div>
+Use o código com cuidado.
+
+Explicação das Alterações:
+
+Conteúdo: Substituímos o conteúdo do título, descrição e link para informações específicas sobre o PIS e a COFINS.
+Link: Adaptamos o link para mais informações para direcionar para o site da Receita Federal, que é uma fonte confiável para informações sobre esses tributos.
+Observações:
+
+Personalização: Você pode personalizar ainda mais o conteúdo, adicionando informações mais detalhadas sobre cada imposto, como alíquotas, bases de cálculo e legislação específica.
+Layout: A estrutura HTML utilizada permite uma fácil adaptação ao layout geral da sua página.
+Acessibilidade: Certifique-se de adicionar atributos alt às imagens (se houver) e utilizar semântica correta para melhorar a acessibilidade da sua página.
